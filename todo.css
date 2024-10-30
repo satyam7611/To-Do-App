@@ -1,51 +1,56 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-#main-heading{
-    text-align: center;
-}
-.toDo-container{
-    display:grid;
-    grid-template-columns: 200px 150px 100px;
-    column-gap: 10px;
-    row-gap: 10px;
-    margin-top:15px;
-    align-items: center;
-    margin-left: 143px;
-}
-.grid-container{
-    display:grid;
-    grid-template-columns: 200px 150px 100px;
-    column-gap: 10px;
-    row-gap: 10px;
-    align-items: center;
-    margin-left: 143px;
-
-}
-#todo_input , #todo-date
-{
-    font-size:15px;
- 
-    padding:10px 5px;
-    
+/* Global styles for the body of the document */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Sets the font family for the entire document */
 }
 
-
-
-.btn-delete
-{
-    background-color: rgb(87, 4, 4);
-    color:white;
-    border:none;
-    border-radius:10px;
-    padding:15px 0px;
-    cursor: pointer;
+/* Styles for the main heading of the application */
+#main-heading {
+    text-align: center; /* Centers the main heading text */
 }
-.btn-todo{
-    background-color: rgb(13, 136, 13);
-    color:white;
-    border:none;
-    border-radius:10px;
-    padding:15px 0px;
-    cursor:pointer;
+
+/* Styles for the container that holds the todo items */
+.toDo-container {
+    display: grid; /* Uses CSS Grid layout */
+    grid-template-columns: 200px 150px 100px; /* Defines three columns with specified widths */
+    column-gap: 10px; /* Sets the gap between columns */
+    row-gap: 10px; /* Sets the gap between rows */
+    margin-top: 15px; /* Adds space above the container */
+    align-items: center; /* Aligns items vertically in the center */
+    margin-left: 143px; /* Adds left margin to the container */
+}
+
+/* Styles for the grid container that holds input fields and the button */
+.grid-container {
+    display: grid; /* Uses CSS Grid layout */
+    grid-template-columns: 200px 150px 100px; /* Defines three columns with specified widths */
+    column-gap: 10px; /* Sets the gap between columns */
+    row-gap: 10px; /* Sets the gap between rows */
+    align-items: center; /* Aligns items vertically in the center */
+    margin-left: 143px; /* Adds left margin to the container */
+}
+
+/* Styles for the input fields */
+#todo_input, #todo-date {
+    font-size: 15px; /* Sets the font size for input fields */
+    padding: 10px 5px; /* Adds padding inside the input fields */
+}
+
+/* Styles for the delete button */
+.btn-delete {
+    background-color: rgb(87, 4, 4); /* Sets the background color of the delete button */
+    color: white; /* Sets the text color of the button */
+    border: none; /* Removes the default border */
+    border-radius: 10px; /* Rounds the corners of the button */
+    padding: 15px 0px; /* Adds vertical padding to the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+}
+
+/* Styles for the add todo button */
+.btn-todo {
+    background-color: rgb(13, 136, 13); /* Sets the background color of the add button */
+    color: white; /* Sets the text color of the button */
+    border: none; /* Removes the default border */
+    border-radius: 10px; /* Rounds the corners of the button */
+    padding: 15px 0px; /* Adds vertical padding to the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
 }

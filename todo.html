@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Character encoding for the document -->
     <meta charset="UTF-8">
+    <!-- Viewport settings for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the web page -->
     <title>To do app</title>
+    <!-- Link to external CSS file for styling -->
     <link rel="stylesheet" href="todo.css">
 </head>
 <body>
+    <!-- Main heading of the application -->
     <h1 id="main-heading">Todo App</h1>
- <div class="grid-container">
-   <input type="text" placeholder="Enter todo here" id="todo_input">
-   <input type="date"  id="todo-date">
-   <button class="btn-todo"onclick="AddToDo()">Add</button>
-</div>
-   <div class="toDo-container"></div>
-   
-
-   <script src="todo.js"></script>
+    
+    <!-- Container for input fields and button -->
+    <div class="grid-container">
+        <!-- Input field for entering a new todo item -->
+        <input type="text" placeholder="Enter todo here" id="todo_input">
+        <!-- Input field for selecting a date for the todo item -->
+        <input type="date" id="todo-date">
+        <!-- Button to add the todo item, triggers the AddToDo function when clicked -->
+        <button class="btn-todo" onclick="AddToDo()">Add</button>
+    </div>
+    
+    <!-- Container to display the list of todo items -->
+    <div class="toDo-container"></div>
+    
+    <!-- Link to external JavaScript file for functionality -->
+    <script src="todo.js"></script>
 </body>
 </html>
