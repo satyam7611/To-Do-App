@@ -6,7 +6,7 @@ A To-Do App is a simple application that helps users organize their tasks by cre
 </br>
 It typically allows users to add ,delete. The main goal is to improve productivity and ensure that users can keep track of their responsibilities efficiently.
 <h1>Key Feature</h1>
-<h2>Add:</h2>:
+<h2>Add:</h2>
 <h3>Simply add item that user want to complete</h3>
-<h2>Delete</h2>:
+<h2>Delete</h2>
 <h3>User can delete the item that he/she has completed.</h3>
